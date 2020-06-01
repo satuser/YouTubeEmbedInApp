@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Youtube Video Manual Play"
+        android:textSize="18sp"
+        android:textColor="#344323"
+        android:padding="8dp"
+        android:textStyle="bold"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_single_link_no_auto_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Single Video" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_multiple_link_no_auto_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Multiple Video" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Youtube Video Auto Play"
+        android:textSize="18sp"
+        android:textColor="#344323"
+        android:padding="8dp"
+        android:textStyle="bold"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_single_link_auto_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Single Video" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_multiple_link_auto_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Multiple Video" />
+
+</LinearLayout>
