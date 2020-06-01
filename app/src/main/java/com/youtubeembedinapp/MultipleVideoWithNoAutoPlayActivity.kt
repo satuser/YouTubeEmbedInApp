@@ -15,7 +15,7 @@ class MultipleVideoWithNoAutoPlayActivity : YouTubeBaseActivity() {
         setContentView(binding.root)
 
         binding.youtubeViewMultipleVideosNoAutoPlay.initialize(
-            "AIzaSyADXwxojM3_FtQkbvBdAt_b8mBcbcXsrBE",
+            "DEVELOPER_API_KEY",
             object : YouTubePlayer.OnInitializedListener {
 
                 override fun onInitializationSuccess(
