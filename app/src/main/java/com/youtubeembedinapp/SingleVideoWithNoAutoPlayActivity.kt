@@ -14,7 +14,7 @@ class SingleVideoWithNoAutoPlayActivity : YouTubeBaseActivity() {
         setContentView(binding.root)
 
         binding.youtubeViewSingleVideoNoAutoPlay
-            .initialize("AIzaSyADXwxojM3_FtQkbvBdAt_b8mBcbcXsrBE",
+            .initialize("DEVELOPER_API_KEY",
                 object : YouTubePlayer.OnInitializedListener {
                     override fun onInitializationSuccess(
                         provider: YouTubePlayer.Provider?,
