@@ -18,7 +18,7 @@ class MultipleVideoWithAutoPlayActivity : YouTubeBaseActivity() {
         binding = ActivityMultipleVideoWithAutoPlayBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.youtubeViewMultipleVideosAutoPlay.initialize("AIzaSyADXwxojM3_FtQkbvBdAt_b8mBcbcXsrBE",
+        binding.youtubeViewMultipleVideosAutoPlay.initialize("DEVELOPER_API_KEY",
             object : YouTubePlayer.OnInitializedListener {
                 override fun onInitializationSuccess(
                     provider: YouTubePlayer.Provider?,
